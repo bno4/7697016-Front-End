@@ -6,7 +6,7 @@
         "categorie": "Optiques",
         "image": "images/ampoule-led.png",
         "description": "Distance d’éclairage : 100 mètres !",
-        "disponibilite": true,
+        "disponibilite": true
     },
     {
         "id": 2,
@@ -38,7 +38,6 @@
         "id": 5,
         "nom": "Balai d'essuie-glace",
         "prix": 29.10,
-        "categorie": "accessoire",
         "image": "images/balai-essuie-glace.png",
         "description": "Distance d’éclairage : 100 mètres !"
     }
