@@ -17,10 +17,12 @@ header {
 	text-align: center;
 	color: white;
 }
+
 header img {
 	height: 60px;
 	margin-left: 1rem;
 }
+
 header h1 {
 	flex-grow: 1;
 }
@@ -38,6 +40,7 @@ main {
 	min-width: 300px;
 	min-height: 400px;
 }
+
 .filtres h3 {
 	text-align: center;
 }
@@ -46,9 +49,11 @@ main {
 	flex: 1;
 	margin: 8px;
 }
+
 .fiches img {
 	max-width: 200px;
 }
+
 .fiches p {
 	margin-top: 4px;
 	margin-bottom: 4px;
