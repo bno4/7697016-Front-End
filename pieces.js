@@ -12,14 +12,19 @@ for (let i = 0; i < pieces.length; i++) {
     // Création des balises 
     const imageElement = document.createElement("img");
     imageElement.src = article.image;
+
     const nomElement = document.createElement("h2");
     nomElement.innerText = article.nom;
+
     const prixElement = document.createElement("p");
     prixElement.innerText = `Prix: ${article.prix} € (${article.prix < 35 ? "€" : "€€€"})`;
+
     const categorieElement = document.createElement("p");
     categorieElement.innerText = article.categorie ?? "(aucune catégorie)";
+
     const descriptionElement = document.createElement("p");
     descriptionElement.innerText = article.description ?? "Pas de description pour le moment.";
+
     const stockElement = document.createElement("p");
     stockElement.innerText = article.disponibilite ? "En stock" : "Rupture de stock";
 
@@ -27,10 +32,10 @@ for (let i = 0; i < pieces.length; i++) {
     sectionFiches.appendChild(pieceElement);
     // On rattache l’image à pieceElement (la balise article)
     pieceElement.appendChild(imageElement);
-    pieceElement.appendChild(nomElement);∏
+    pieceElement.appendChild(nomElement);
     pieceElement.appendChild(prixElement);
     pieceElement.appendChild(categorieElement);
     //Ajout des éléments au DOM pour l'exercice
     pieceElement.appendChild(descriptionElement);
     pieceElement.appendChild(stockElement);
-
+}
